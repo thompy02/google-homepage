@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    
+
+    <head>
+        <style>
+        .define-grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, min-max(200px));
+            grid-auto-rows: minmax(200px, auto);
+            border: 2px red;
+            z-index: 999;
+        }
+
+
+        .header{ 
+            font-size: 25px;
+            position: relative;
+            top: -80px;
+            padding-top: -20px;
+            padding-bottom: 50px; 
+            }
+        
+        .footer{ display:flex;
+        justify: right; }
+
+        
+        }
+
+        .logo { justify-content:center;
+        display: center;
+        margin-left:auto;
+        margin-right:auto;
+        position: relative;
+        top: 80px;
+        width: 15%;
+        }
+        
+        
+        .topnavbar{float: left;
+        padding: 0px;
+        text-align: center;
+        }
+
+        .searchbar{ position: relative;
+        padding: 30px;
+        text-align: auto;}
+
+        .grid-container{display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-auto-rows: 200px;}
+
+        .grid-border{border:2px solid red;
+        padding:20px;
+        text-align: center;}
+
+        ul{ list-style-type: none;
+        margin: 0;
+        padding: 15;}
+
+        li{float: left;}
+    
+        
+
+    </style>
+
+
+        <h1 class="header">"header placeholer"</h1>
+
+    <div>
+        <ul>
+            <li>about</li>
+            <li>Store</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li> Gmail</li>
+            <li> Images</li>
+        </ul>
+    </div>
+
+    </head>
+
+    <body>
+
+        <div class = "grid-container">
+            <div class = "grid-border">one</div>
+            <div class = "grid-border">two</div>
+            <div class = "grid-border">three</div>
+            <div class = "grid-border">four</div>
+            <div class = "grid-border">five</div>
+            <div class = "grid-border">six</div>
+            <div class = "grid-border">seven</div>
+            <div class = "grid-border">eight</div>
+            <div class = "grid-border">eight</div>
+            <div >nine</div>
+        </div>
+
+        <div class="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
+
+
+        <div class = "searchbar">this is the search bar</div>
+    </body>
+
+    <footer class="footer"> 
+        
+        <div>test</div>
+
+
+
+
+    </footer>
+</html>
